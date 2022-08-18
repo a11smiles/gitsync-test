@@ -2,7 +2,7 @@ name: Sync with Azure DevOps
 
 on:
   issues:
-    types: [opened]
+    types: [opened, closed, deleted]
 
 jobs:
   alert:
