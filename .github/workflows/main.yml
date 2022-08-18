@@ -1,4 +1,4 @@
-name: Sync Issue to Azure DevOps work item
+name: Sync with Azure DevOps
 
 on:
   issues:
@@ -21,5 +21,5 @@ jobs:
         ado_close_state: 'Closed'
         ado_active_state: 'Active'  
         ado_bypassrules: true
-        log_level: 1
+        log_level: 'debug'
         config_file: './.github/workflows/gsconfig.json'
