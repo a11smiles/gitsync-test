@@ -7,6 +7,7 @@
         "states": {
             "new": "New",
             "closed": "Closed",
+            "reopened": "Active",
             "deleted": "Removed",
             "active": "Active"
         },
