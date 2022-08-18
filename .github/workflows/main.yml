@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Testing workflow
     steps:       
+    - uses: actions/checkout@v3
     - uses: a11smiles/GitSync@main
       env:     
         ado_token: '${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}'
@@ -21,3 +22,4 @@ jobs:
         ado_active_state: 'Active'  
         ado_bypassrules: true
         log_level: 100
+        config_file: ./gsconfig.json
