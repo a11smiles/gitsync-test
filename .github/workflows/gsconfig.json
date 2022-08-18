@@ -6,7 +6,7 @@
         "wit": "User Story",
         "states": {
             "new": "New",
-            "close": "Closed",
+            "closed": "Closed",
             "deleted": "Removed",
             "active": "Active"
         },
