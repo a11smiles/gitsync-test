@@ -3,6 +3,8 @@ name: Sync with Azure DevOps
 on:
   issues:
     types: [opened, closed, deleted, reopened, edited, labeled, unlabeled, assigned, unassigned]
+  issue_comment:
+    types: [created]
 
 jobs:
   alert:
