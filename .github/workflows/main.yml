@@ -2,7 +2,7 @@ name: Sync with Azure DevOps
 
 on:
   issues:
-    types: [opened, closed, deleted, reopened, edited, labeled, unlabeled]
+    types: [opened, closed, deleted, reopened, edited, labeled, unlabeled, assigned, unassigned]
 
 jobs:
   alert:
