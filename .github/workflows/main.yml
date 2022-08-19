@@ -5,6 +5,8 @@ on:
     types: [opened, closed, deleted, reopened, edited, labeled, unlabeled, assigned, unassigned]
   issue_comment:
     types: [created]
+  schedule:
+    - cron: '* * * * *'
 
 jobs:
   alert:
